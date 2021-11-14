@@ -67,7 +67,7 @@ function inorder(root) {
  }
  console.log('inorder(root)',inorder(root));
 
- //后续
+ //后序
  function postorder(root) {
     if(!root){
        return [];
